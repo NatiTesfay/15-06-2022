@@ -22,13 +22,22 @@
     
 // }
 
-let userValue = [];
-let nameFromUser = document.getElementById('NumArray');
-function BTN() {
-    userValue.push(nameFromUser.value);
-    userValue.join(",")
-    userValue.sort()
-    console.log(userValue)
-    
-  } 
+// let userValue = [];
+// let nameFromUser = document.getElementById('NumArray');
+// function BTN() {
+//     userValue.push(nameFromUser.value);
+//     userValue.join(",")
+//     userValue.sort()
+//     console.log(userValue)
+//   } 
 
+
+let randomNum = [];
+function randomDate() {
+   for (let i = 0; i < 10; i++) {
+     randomNumbers.push(Math.floor(Math.random()*55))
+   }
+   console.log(randomNum.sort((a,b)=>{return b-a}));
+    
+}
+randomDate();
