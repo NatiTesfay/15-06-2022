@@ -26,8 +26,8 @@ let userValue = [];
 let nameFromUser = document.getElementById('NumArray');
 function BTN() {
     userValue.push(nameFromUser.value);
-    userValue.sort((a,b)=>{return a - b})
     userValue.join(",")
+    userValue.sort()
     console.log(userValue)
     
   } 
